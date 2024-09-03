@@ -64,8 +64,10 @@ public class Persona
         this.edad = edad;
     }
     
-    
-    
-    
+    public void MostrarDatosPersona(){
+        System.out.println("Nombre: " + this.nombre);
+        System.out.println("Rut: " + this.rut);
+        System.out.println("Edad: " + this.edad);
+    }
     
 }

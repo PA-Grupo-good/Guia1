@@ -47,4 +47,10 @@ public class Ciudad
         this.numReg = numReg;
     }
     
+    public void MostrarDatosCiudad(){
+        System.out.println("Nombre: " + this.nombre);
+        System.out.println("Número Región: " + this.numReg);
+
+    }    
+    
 }
