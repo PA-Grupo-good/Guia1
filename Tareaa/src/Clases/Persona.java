@@ -13,6 +13,14 @@ public class Persona
     private String rut="";
     private String nombre="";
     private int edad=0;
+    
+    //constuctor 
+    public Persona(String rut,String nom,int edad)
+    {
+        this.rut=rut;
+        this.nombre=nom;
+        this.edad=edad;
+    }
 
     /**
      * @return the rut
