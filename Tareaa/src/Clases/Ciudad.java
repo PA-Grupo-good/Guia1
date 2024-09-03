@@ -12,6 +12,12 @@ public class Ciudad
 {
     private String nombre="";
     private int numReg=0;
+    
+    
+    public Ciudad(String nom, int numReg){
+        this.nombre = nom;
+        this.numReg = numReg;
+    }
 
     /**
      * @return the nombre
